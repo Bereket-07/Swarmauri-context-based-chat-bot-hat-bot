@@ -13,45 +13,35 @@
 ## Overview: Key Functionalities
 
 
-project_overview = """
-1. **Project Overview**
-- Objective: Develop a context-based chatbot using the Swarmauri library that can provide users with tailored responses based on the given context while allowing selection from various LLM models.
+# Project Overview
 
-2. **Features and Components**:
-1. Contextual Interaction: 
-   - Utilize the Swarmauri library to enable users to input specific contexts.
-   - Allow users to ask questions or request information based on the defined context, enhancing the relevance of responses.
+## Objective
+Develop a context-based chatbot using the **Swarmauri** library that provides tailored responses based on user-defined contexts and allows model selection.
 
-2. Model Selection: 
-   - Provide a user-friendly interface for selecting from various LLM models.
-   - Ensure that the chosen model can adapt to different contexts and provide accurate responses.
+## Key Features
+- **Contextual Interaction**: Users can input specific contexts for relevant responses.
+- **Model Selection**: User-friendly interface to select from various LLM models.
+- **Frontend**: Interactive UI built with **Streamlit** for real-time conversations.
+- **Backend**: Flask server to manage API endpoints for queries and context.
+- **Dynamic Responses**: Generates insightful answers based on user input and context.
+- **Evaluation**: Continuous performance testing and optimization based on user feedback.
 
-3. Frontend Development:
-   - Build an interactive user interface using Streamlit to facilitate real-time conversations.
-   - Implement design elements to enhance user experience, including custom styling and input handling.
+## Integration
+- **API Development**: Robust endpoints for external integrations, enabling seamless communication with third-party services.
 
-4. Backend Development:
-   - Set up a Flask server to manage API endpoints for integration.
-   - Create endpoints to handle user queries, model selection, and context management.
+## Goals
+- Enhance user interaction with a context-aware chatbot.
+- Provide flexibility in model selection.
+- Ensure seamless integration for developers.
 
-5. Dynamic Response Generation:
-   - Leverage selected LLM models to generate dynamic responses based on user input and context.
-   - Ensure that the system can handle a variety of topics and provide insightful answers.
+## App Preview
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
 
-6. Evaluation and Optimization:
-   - Test the chatbot’s performance using user feedback and interaction analytics.
-   - Continuously optimize model selection and response quality to improve user satisfaction.
 
-3. **Integration**:
-- API Development:
-   - Create robust API endpoints to allow for external integrations, enabling the chatbot to be used in different applications or platforms.
-   - Support real-time communication with the Streamlit frontend and potential third-party services.
 
-4. **Goals**:
-- Enhance user interaction with a context-aware conversational agent.
-- Provide flexibility in model selection to cater to different user needs.
-- Ensure a seamless integration experience for developers looking to utilize the chatbot in their applications.
-"""
+
 
 
 # Tools & Libraries Used
